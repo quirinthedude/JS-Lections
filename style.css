@@ -2,11 +2,13 @@
     display: inline-block;
     height: 35px;
     background-color: green;
+    
 }
-#bellvue {
+.bellvue {
     color: darkolivegreen;
     padding: 5px;
+    text-align: justify;
 }
-#d_none {
+.d_none {
     display: none;
 }
