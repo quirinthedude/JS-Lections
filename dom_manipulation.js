@@ -57,7 +57,13 @@ select.addEventListener("change", () =>{
     }
     select.value ="";
 });
+
+
 // funktion bestimmtes element (button, hier) ein-/ausblenden //
 function DNone (el) {
     el.classList.toggle("d_none");
+}
+// funktion für neue Eingabe -> zweites Inoutfeld //
+function valueInput(val) {
+    console.log(val.key);    
 }

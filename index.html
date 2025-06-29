@@ -31,6 +31,13 @@
       <option value="p">p</option>
       <option value="input">input</option>
      </select>
+     <!-- bei onchange soll eben dies übergeben werden (this) -->
+     <!-- <input type="text" id="inputNeu" placeholder="Please..." onchange="valueInput(this);"> -->
+     <!-- bei onkeydown ist es wichtig nicht (this), sondern (event) zu übergeben -->
+     <!-- ausserdem wird der wert auch weiterhin samt enter ausgegeben und das Feld nicht geschlossen -->
+     <!-- <input type="text" id="inputNeu" placeholder="Please..." onkeydown="valueInput(event);"> -->
+     <!-- bei onkeydown passiert dann genau das, was erwartet -->
+     <!-- <input type="text" id="inputNeu" placeholder="Please..." onkeyup="valueInput(event);"> -->
      
       <h3>Fortschritt meiner JS-Kentnisse</h3>
       <h4>Er folgt nicht ganz genau dem Plan nach der Software-Akademie</h4>
