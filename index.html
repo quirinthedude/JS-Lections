@@ -12,9 +12,12 @@
      <script src="./debugger.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <h1 id="website_tit">Erste Überschrift</h1>
+  <body onload="testone()">
+    <h1 id="website_tit" onclick="testone()">Erste Überschrift</h1>
+    
+    <P id="debugger_log">0</P>
 
+    <input type="text" onkeydown="testone()">
     <div id="test_div" class="bg_green">
       <button onclick="klick()">
         Background
